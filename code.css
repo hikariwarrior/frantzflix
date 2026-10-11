@@ -1,0 +1,53 @@
+body{
+font-family: Arial, Heredica;
+background-color:#080808;
+}
+nav{
+display: flex;
+flex-wrap: warp;
+justify-content: space-between;
+color:#fff;
+background:black;
+}
+nav .gauche{
+display: flex;
+}
+nav .gauche .onglets{
+display: flex;
+}
+nav .gauche .onglets p{
+cursor: pointer;
+color;#fff
+margin-left:5px;
+padding:5px;
+}
+nav .gauche .onglets p:hover{
+color:#B5B5B5
+}
+nav .droite{
+display: flex;
+}
+nav .droite p{
+cursor: pointer;
+color: #fff;
+margin-left:5px;
+padding:5px;
+}
+nav .droite p:hover{
+color:#B5B5B5
+}
+h2{
+font-family: Arial, Heredica;
+color:#fff;
+}
+.films-et-series .tendances .list{
+display: flex;
+overflow-x: auto;
+}
+.films-et-series .tendances .list a{
+padding:10px;
+margin:10;
+}
+footer{
+color: #A0A0A0;
+}
